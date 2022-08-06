@@ -1,0 +1,101 @@
+
+#text{
+    font-size: 1.75em;
+    padding-left: 45%;
+}
+#div1{
+    background-color: darkgrey;
+    border: 1px solid black;
+}
+#bold1{
+    font-size: 1.25em;
+    background-color: pink;
+    border: 1px solid black;
+    float: right;
+}
+#div2{
+    background-color: darkgrey;
+    border: 1px solid black;
+}
+#bold2{
+    font-size: 1.25em;
+    background-color: red;
+    border: 1px solid black;
+    float: right;
+}
+#div3{
+    background-color: darkgrey;
+    border: 1px solid black;
+}
+#bold3{
+    font-size: 1.25em;
+    background-color:khaki;
+    border: 1px solid black;
+    float: right;
+}
+#div1{
+    width: 30%;
+    float: left;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    margin: 1%;
+}
+#div2{
+    width: 30%;
+    float: left;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    margin: 1%;
+}
+#div3{
+    width: 30%;
+    float: left;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    margin: 1%;
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    #div1{
+        width: 46%;
+        float: left;
+        padding-left: 1%;
+        padding-bottom: 1%;
+        margin: 1%;
+    }
+    #div2{
+        width: 46%;
+        float: left;
+        padding-left: 1%;
+        padding-bottom: 1%;
+        margin: 1%;
+    }
+    #div3{
+        width: 95%;
+        padding-left: 1%;
+        padding-bottom: 1%;
+        margin: 1%;
+    }
+}
+@media (max-width: 767px) {
+    #div1{
+        width: 97%;
+        float: left;
+        padding-left: 1%;
+        padding-bottom: 1%;
+        margin: 1%;
+    }
+    #div2{
+        width: 97%;
+        float: left;
+        padding-left: 1%;
+        padding-bottom: 1%;
+        margin: 1%;
+    }
+    #div3{
+        width: 97%;
+        padding-left: 1%;
+        padding-bottom: 1%;
+        margin: 1%;
+    }
+}
